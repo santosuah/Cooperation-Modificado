@@ -1,0 +1,22 @@
+;;!domain: cooperation
+;;!problem: problema
+
+0.00000: (change-tilt-orientation follower0 t_90 t_45) [5.00000]
+0.00000: (go leader p0707 p0509 n0) [2.83000]
+0.00200: (change-pan-orientation follower0 p_135 p_90) [5.00000]
+0.00400: (change-mode follower0 n0 n1) [5.00000]
+2.83100: (take-image leader p0509 p_0 t_0) [5.00000]
+5.00100: (change-tilt-orientation follower0 t_45 t_0) [5.00000]
+5.00300: (change-pan-orientation follower0 p_90 p_45) [5.00000]
+7.83200: (transmit-image leader p0509 p_0 t_0) [5.00000]
+8.50500: (go follower0 p0702 p1002 n1) [1.50000]
+10.00400: (change-pan-orientation follower0 p_45 p_0) [5.00000]
+10.00600: (dock follower0 p1002) [5.00000]
+15.00700: (undock follower0 p1002) [5.00000]
+20.00800: (go follower0 p1002 p1613 n1) [6.26500]
+26.27400: (take-image follower0 p1613 p_0 t_0) [5.00000]
+31.27500: (transmit-image follower0 p1613 p_0 t_0) [5.00000]
+
+; Makespan: 36.275
+; Cost: 28.121
+; States evaluated: 38
